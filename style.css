@@ -1,0 +1,29 @@
+#peru rect:nth-child(2){
+  fill: white;
+  stroke: grey;
+}
+
+#peru rect:first-child, rect:last-child {
+  fill: rgb(217, 16, 35);
+}
+
+#belgium > rect{
+  fill: black;
+}
+
+#belgium rect:nth-child(2){
+  fill: rgb(253, 218, 36);
+}
+
+#belgium rect:last-child{
+  fill: rgb(239, 51, 64);
+}
+
+#austria rect:first-child, rect:last-child {
+  fill: rgb(237, 41, 57);
+}
+
+#austria rect:nth-child(2){
+  fill: white;
+  stroke: grey;
+}
