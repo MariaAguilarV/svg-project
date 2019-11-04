@@ -1,13 +1,13 @@
-#peru rect:nth-child(2){
+#peru rect:first-child{
   fill: white;
   stroke: grey;
 }
 
-#peru rect:first-child, rect:last-child {
+#peru rect~rect{
   fill: rgb(217, 16, 35);
 }
 
-#belgium > rect{
+#belgium rect:first-child{
   fill: black;
 }
 
@@ -19,11 +19,27 @@
   fill: rgb(239, 51, 64);
 }
 
-#austria rect:first-child, rect:last-child {
+#austria > rect:first-child{
+  fill: white;
+  stroke: grey;
+}
+
+#austria rect~rect{
   fill: rgb(237, 41, 57);
 }
 
-#austria rect:nth-child(2){
+#switzerland rect:first-child{
+  fill: rgb(213, 43, 30);
+}
+
+#switzerland rect~rect{
   fill: white;
-  stroke: grey;
+}
+
+#sweden > rect{
+  fill: rgb(0, 75, 135);
+}
+
+#sweden rect~rect{
+  fill: rgb(255, 205, 0);
 }

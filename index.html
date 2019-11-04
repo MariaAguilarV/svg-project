@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
 	  <title>SVG Flags</title>
 		<!-- add external style sheet -->
     <link href="style.css" rel="stylesheet" />
@@ -19,8 +20,9 @@
 				<!-- add flag -->
           <h3>Peru</h3>
             <svg id ="peru" width=600 height=400>
-              <rect x="0" y="0" width="200" height="400" />
               <rect x="200" y="0" width="200" height="400" />
+              <!-- I put the two red rectangles together to use one selector in the css -->
+              <rect x="0" y="0" width="200" height="400" />
               <rect x="400" y="0" width="200" height="400" />
             </svg>
 
@@ -33,10 +35,29 @@
 
           <h3>Austria</h3>
             <svg id="austria" width=600 height=400>
-              <rect x="0" y="0" width="600" height="133"/>
               <rect x="0" y="133" width="600" height="133"/>
+              <!-- I put the two red rectangles together to use one selector in the css -->
+              <rect x="0" y="0" width="600" height="133"/>
               <rect x="0" y="266" width="600" height="133"/>
             </svg>
+
+        <h2>Tier II</h2>
+
+          <h3>Switzerland</h3>
+            <svg id ="switzerland" width=600 height=600>
+              <rect width="600" height="600"/>
+              <rect x="244" y="113" width="113" height="375"/>
+              <rect x="113" y="244" width="375" height="113"/>
+            </svg>
+
+          <h3>Sweden</h3>
+            <svg id="sweden" width=600 height=375>
+              <rect width="600" height="375"/>
+              <rect x="187" y="0" width="75" height="375" />
+              <rect x="0" y="150" width="600" height="75" />
+            </svg>
+
+  
 			</section>
 
 		</main>
