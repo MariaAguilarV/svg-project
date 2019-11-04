@@ -43,3 +43,16 @@
 #sweden rect~rect{
   fill: rgb(255, 205, 0);
 }
+
+#qatar rect:first-child{
+  fill: white;
+  stroke: grey;
+}
+
+#qatar rect~rect{
+  fill: rgb(163, 34, 76);
+}
+
+#qatar polygon{
+  fill: white;
+}
